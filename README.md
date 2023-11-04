@@ -17,7 +17,7 @@ yarn tsc -b
 Start the dev-server
 
 ```shell
-yarn workspace @fc2022/app dev
+yarn workspace @packages/app dev
 ```
 
 Have fun!
