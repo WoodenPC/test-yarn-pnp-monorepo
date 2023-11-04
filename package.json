@@ -2,10 +2,10 @@
   "name": "root",
   "packageManager": "yarn@3.2.4",
   "workspaces": [
-    "@*/*"
+    "packages/*"
   ],
   "devDependencies": {
-    "@fc2022/tsconfig": "workspace:*",
+    "@packages/tsconfig": "workspace:*",
     "@types/eslint": "^8",
     "@types/node": "^18",
     "@types/prettier": "^2",

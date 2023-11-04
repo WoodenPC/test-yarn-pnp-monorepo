@@ -1,0 +1,8 @@
+{
+  "extends": "@packages/tsconfig/tsconfig.client.json",
+  "include": ["src/**/*"],
+  "references": [{ "path": "tsconfig.node.json" }],
+  "compilerOptions": {
+    "types": ["vite/client"]
+  }
+}
